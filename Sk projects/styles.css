@@ -1,0 +1,98 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #00BFFF;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  
+  form {
+    margin-top: 50px;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="number"] {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #set-goal-btn {
+    background-color: #00BFFF;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #set-goal-btn:hover {
+    background-color: #4CAF50;
+  }
+  
+  #drink-btn {
+    background-color: #00BFFF;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  #drink-btn:hover {
+    background-color: #4CAF50;
+  }
+  
+
+  .goal-reached {
+    background: url("https://i.imgur.com/e9c14le.png") no-repeat center center fixed;
+    background-size: cover;
+    animation: splash 1s ease-in-out;
+  }
+  
+  @keyframes splash {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .goal-reached {
+    background: url("https://images.unsplash.com/photo-1573514209831-25d4b1a48cc0") no-repeat center center fixed;
+    background-size: cover;
+    animation: splash 1s ease-in-out;
+  }
+  
+  @keyframes splash {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

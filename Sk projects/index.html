@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Water Glass Counter</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Water Glass Counter</h1>
+    <form>
+      <label for="goal">Set Daily Goal:</label>
+      <input type="number" id="goal" name="goal" min="1" value="8">
+      <button type="submit" id="set-goal-btn">Set</button>
+    </form>
+    <button id="drink-btn">Drink a Glass of Water</button>
+    <p>You have drank <span id="counter">0</span> glasses of water today.</p>
+    <div id="goal-reached-popup">
+      <p>Congratulations! You have reached your daily goal of <span id="goal-reached-value"></span> glasses of water!</p>
+      <button id="close-popup-btn">Close</button>
+       <P>\Staying hydrated can help support physical performance, prevent headaches and constipation, and much more</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
